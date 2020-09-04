@@ -1,0 +1,23 @@
+/ : {
+  path: 'templates/main_page.html',
+  status: '200 OK',
+  headers: [
+    ['Content-type', 'text/html'],
+  ]
+}
+
+/catalog : {
+  path: 'templates/catalog.html',
+  status: '200 OK',
+  headers: [
+    ['Content-type', 'text/html'],
+  ]
+}
+
+404_error_page: {
+  path: 'templates/404error.html',
+  status: '404 NOT FOUND',
+  headers: [
+    ['Content-type', 'text/html'],
+  ]
+}
