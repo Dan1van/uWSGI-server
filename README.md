@@ -77,7 +77,7 @@ uWSGI-server — it's a simple WSGI-framework, developed using Python.
 
 ## Installation
 
-Clone the repository and install the requirements:
+Clone the repository and install all requirements:
 
 
 ```bash
